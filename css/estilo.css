@@ -1,0 +1,512 @@
+@charset "utf-8";
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+  font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;   
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+.header {
+    height: 150px;
+    width: 100%;
+    background-color: #F66538;
+    border-bottom-left-radius: 300px 150px;
+    border-bottom-right-radius: 300px 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+.logo {
+    width: 108px;
+    height: 80px;
+}
+.B1 {
+    height: 50px;
+    width: 135px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 125px;
+}
+.B2 {
+	height: 50px;
+	width: 135px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.B3 {
+	height: 50px;
+	width: 135px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.B4 {
+	height: 50px;
+	width: 135px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.fondo {
+    width: 100%;
+	height: 550px;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+}
+.img1 {
+    height: 450px;
+    width: 450px;
+    border-radius: 66% 34% 33% 67% / 35% 45% 55% 65%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    background-image: url(../img/sn-img.jpg);
+}
+.titulos {
+	font-family: 'Hind Siliguri', sans-serif;
+	color: #034F46;
+	font-size: 34px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.textos {
+	font-family: 'Martel Sans', sans-serif;
+	color: #034F46;
+	font-size: 13pt;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 23px;
+}
+.Binfo {
+	height: 60px;
+	width: 180px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.fondo2 {
+	width: 100%;
+}
+.titulos2 {
+	font-family: 'Hind Siliguri', sans-serif;
+    color: #034F46;
+    font-size: 34px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.B5 {
+	height: 50px;
+	width: 70px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.subtitulos {
+	font-family: 'Hind Siliguri', sans-serif;
+    color: #034F46;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.footer {
+    height: 500px;
+    width: 100%;
+    background-color: #07C7B0;
+    border-top-left-radius: 300px 150px;
+    border-top-right-radius: 300px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.final {
+	height: 100px;
+}
+.miviva {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.mvvin {
+	width: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mvvtext {
+	font-family: 'Martel Sans', sans-serif;
+	color: #034F46;
+	font-size: 13pt;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 23px;
+}
+.domos {
+	font-family: 'Hind Siliguri', sans-serif;
+    color: #034F46;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.img2 {
+    height: 450px;
+    width: 450px;
+    border-radius: 63% 37% 29% 71% / 53% 67% 33% 47%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    background-image: url(../img/domo%20com%C3%BAn.jpg);
+}
+.img3 {
+    height: 450px;
+    width: 450px;
+    border-radius: 61% 39% 60% 40% / 37% 38% 62% 63%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    background-image: url(../img/domo%20habitaci%C3%B3n.jpg);
+}
+.Breservar {
+	height: 60px;
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.img4 {
+    height: 450px;
+    width: 450px;
+    border-radius: 65% 35% 57% 43% / 35% 45% 55% 65%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    background-image: url(../img/canopy.jpg);
+}
+.img5 {
+	height: 450px;
+    width: 450px;
+    border-radius: 65% 35% 57% 43% / 35% 77% 23% 65%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+	background-image: url("../img/observación.jpg");
+}
+.img6 {
+	height: 450px;
+    width: 450px;
+    border-radius: 74% 26% 57% 43% / 56% 63% 37% 44%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+	background-image: url("../img/caminata.jpg");
+}
+.BContac {
+	height: 60px;
+	width: 210px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.mapa {
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.resvBM {
+	height: 60px;
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.boton{
+	height: 60px;
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.pfinal {
+	height: 100px;
+}
+.modalmask {
+    position: fixed;
+    font-family: Arial, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    webkit-transition: opacity 400ms ease-in;
+    moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalbox{
+	font-family: 'Martel Sans', sans-serif;
+    width: 400px;
+    height: 200px;
+	line-height: 34px;
+	color: #034F46;
+    position: relative;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    background: #FFFFE3;
+    border-radius: 10px;
+    webkit-transition: all 500ms ease-in;
+    moz-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+    font-size: 24px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.movedown {
+    margin: 0 auto;
+}
+.rotate {
+    margin: 10% auto;
+    webkit-transform: scale(-5,-5);
+    transform: scale(-5,-5);
+}
+.resize {
+    margin: 10% auto;
+    width:0;
+    height:0;
+ 
+}
+.modalmask:target .movedown{       
+    margin:10% auto;
+}
+.modalmask:target .rotate{     
+    transform: rotate(360deg) scale(1,1);
+    webkit-transform: rotate(360deg) scale(1,1);
+}
+ 
+.modalmask:target .resize{
+    width:400px;
+    height:200px;
+}
+.close {
+    background: #07C7B0;
+    color: #FFFFE3;
+    line-height: 25px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 5px;
+    width: 30px;
+	height: 26px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ 
+.close:hover {
+    background: #F66538;
+    color:#FFFFE3;
+}
+.bo {
+}
+.Redes {
+	height: 70px;
+	width: 300px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.R {
+	width: 50px;
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+@media (max-width: 768px){
+.header {
+    height: 500px;
+    width: 100%;
+    background-color: #F66538;
+    border-bottom-left-radius: 300px 150px;
+    border-bottom-right-radius: 300px 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.B1 {
+    height: 60px;
+    width: 135px;
+    padding-top: 25px;
+    margin-left: 0px;
+    padding-bottom: 5px;
+}
+.B2 {
+	height: 50px;
+	width: 135px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: -11px;
+}
+.B3 {
+	height: 50px;
+	width: 135px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.B4 {
+	height: 50px;
+	width: 135px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.B5 {
+	height: 50px;
+	width: 70px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+.domos {
+	font-family: 'Hind Siliguri', sans-serif;
+    color: #034F46;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.textos {
+	font-family: 'Martel Sans', sans-serif;
+	color: #034F46;
+	font-size: 13pt;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 23px;
+}
+}
